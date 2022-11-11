@@ -8,6 +8,8 @@ body {
   width: auto;  
   height: 100vh;
   background-image: url(1542216179.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .container {
@@ -34,9 +36,10 @@ body {
 .month {
     height: 80px;
     width: 80%;
-    font-size: 1.5px;
+    font-size: 1.5rem;
     border-radius: 5px;
     border: 10px;
+    padding-left: 20px;
 }
 
 .day {
@@ -44,5 +47,7 @@ body {
     width: 80%;
     font-size: 1.5rem;
     border-radius: 5px;
+    border: 10px;
     margin-top: 20px;
+    padding-left: 20px;
 }
