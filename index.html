@@ -13,7 +13,7 @@
         <div class="input">
             <!-- <input placeholder="Enter birth month" class="month"> -->
             <div class="day">
-                <h3>Select birth day</h3>
+                <h3 id="select-day">Select birth day</h3>
                 <select>
                     <option value="1">1</option>
                     <option value="2">2</option>
@@ -49,7 +49,7 @@
                 </select>
             </div>
             <div class="month">
-                <h3>Select birth month</h3>
+                <h3 id="select-month">Select birth month</h3>
                 <select>
                     <option value="1">January</option>
                     <option value="2">February</option>
@@ -67,7 +67,10 @@
             </div>
             <!-- <input placeholder="Enter day" class="day"> -->
         </div>
-        <div class="result">Your zodiac sign is</div>
+        <div >
+            <h3 class="result-text">Your zodiac sign is</h3>
+            <input type="text" class="display">
+        </div>
     </div>
    </div> 
 </body>
