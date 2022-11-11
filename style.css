@@ -23,26 +23,29 @@ body {
     height: 400px;
 }
 
-.input {
+/* .input {
     display: flex;
     flex-direction: column;
     height: 100px;
     /* justify-items: center; */
-    padding-top: 50px;
+    /* padding-top: 50px;
     padding-left: 20px;
+} */ 
 
+select {
+    
 }
 
-.month {
+/* .month {
     height: 80px;
     width: 80%;
     font-size: 1.5rem;
     border-radius: 5px;
     border: 10px;
     padding-left: 20px;
-}
-
-.day {
+} */
+ 
+/*.day {
     height: 80px;
     width: 80%;
     font-size: 1.5rem;
@@ -50,4 +53,4 @@ body {
     border: 10px;
     margin-top: 20px;
     padding-left: 20px;
-}
+} */
