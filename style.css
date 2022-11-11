@@ -4,9 +4,10 @@
 }
 
 body {
-  background-color: azure;
+  /* background-color: azure; */
   width: auto;  
   height: 100vh;
+  background-image: url(1542216179.svg);
 }
 
 .container {
@@ -16,21 +17,32 @@ body {
     margin-top: 50px;
     margin-bottom: 50px;
     border-radius: 10px;
-    background-color: aqua;
-
+    background-color: rosybrown;
+    height: 400px;
 }
 
 .input {
     display: flex;
     flex-direction: column;
     height: 100px;
+    /* justify-items: center; */
+    padding-top: 50px;
+    padding-left: 20px;
+
 }
 
 .month {
     height: 80px;
     width: 80%;
-    font-size: 30px;
+    font-size: 1.5px;
     border-radius: 5px;
+    border: 10px;
 }
 
-.day
+.day {
+    height: 80px;
+    width: 80%;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    margin-top: 20px;
+}
