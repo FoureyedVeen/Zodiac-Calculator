@@ -34,7 +34,7 @@ body {
     padding-left: 20px;
 }  
 
-select {
+input {
     height: 50px;
     width: 80%;
     font-size: 1.5rem;
@@ -49,12 +49,9 @@ select {
 
 #select-month {
     padding-bottom: 10px;
+    padding-top: 15px;
 }
 
-.month {
-    padding-top: 20px;
-} 
- 
 /*.day {
     height: 80px;
     width: 80%;
